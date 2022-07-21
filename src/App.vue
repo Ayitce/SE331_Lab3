@@ -3,6 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/category-and-organizer">CategoryAndOrganizer</router-link>
+    |
+    <router-link to="/student">Student</router-link>
   </nav>
   <!-- new Element-->
   <router-view />

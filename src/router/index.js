@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import EventListView from '../views/EventListView.vue'
 import AboutView from '../views/AboutView.vue'
 import CateNOrgView from '../views/CateNOrgView.vue'
+import StudentView from '../views/StudentView.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/category-and-organizer',
     name: 'CateNOrgView',
     component: CateNOrgView
+  },
+  {
+    path: '/student',
+    name: 'StudentView',
+    component: StudentView
   }
 ]
 
