@@ -1,19 +1,16 @@
 <template>
   <div class="events">
-    <EventCard v-for="event in events" :key="event.id" :event="event" />
     <CateNOrg v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import EventCard from '@/components/EventCard.vue'
 import CateNOrg from '@/components/CateNOrg.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'CateNOrgView',
   components: {
-    EventCard,
     CateNOrg
   },
   data() {
